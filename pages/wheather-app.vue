@@ -36,6 +36,7 @@
     <v-col cols="12" class="mt-4">
       <v-form @submit.prevent="getWeatherInfo">
         <v-text-field label="Enter City Name" v-model="city"></v-text-field>
+        <v-btn type="submit">Submit</v-btn>
       </v-form>
     </v-col>
     <!-- </v-layout> -->
